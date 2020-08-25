@@ -47,3 +47,15 @@ Follow:
 - Run the tests with ```yarn test```
 - The tests will be opened in the same console. 
 
+
+### **Build APK**:
+
+Prerequisite: 
+- Must be logged in with an Expo account (following the build process you can create an account by default)
+
+Follow: 
+- Install ```npm install -g sharp-cli```
+- Run ```npx expo-optimize``` to resize pictures
+- Run ```expo start``` to load the App locally in one console
+- In another console, build the App with ```build:android``` and choose APK (here you can create an Expo account)
+- This process will take some minutes, you can follow it in the console or directly in Expo provided links

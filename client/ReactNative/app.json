@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TeamSpiritRNFE",
-    "slug": "TeamSpiritRNFE",
+    "name": "Team Spirit",
+    "slug": "TeamSpirit",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,7 +16,12 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.capgemini.teamspirit",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.capgemini.teamspirit",
+      "versionCode": 1
     }
   }
 }
